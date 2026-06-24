@@ -93,4 +93,26 @@
     }, { rootMargin: "-45% 0px -50% 0px" });
     sections.forEach(function (s) { activeObs.observe(s); });
   }
+
+  /* ---- hero scroll button ----
+     Make the scroll hint interactive: smooth-scroll to the next section (#about)
+     Supports click and keyboard (Enter / Space). Adds role and tabindex for accessibility.
+  ---- */
+  var heroScroll = document.querySelector('.hero__scroll');
+  if (heroScroll) {
+    var scrollTarget = document.getElementById('about') || document.querySelector('main section');
+    heroScroll.style.cursor = 'pointer';
+    if (!heroScroll.hasAttribute('tabindex')) heroScroll.setAttribute('tabindex', '0');
+    heroScroll.setAttribute('role', 'button');
+    heroScroll.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (scrollTarget) scrollTarget.scrollIntoView({ behavior: 'smooth' });
+    });
+    heroScroll.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        if (scrollTarget) scrollTarget.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  }
 })();
