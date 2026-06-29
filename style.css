@@ -212,12 +212,12 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
 }
 .ledger__head {
   display: flex; justify-content: space-between;
-  font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.18em;
+  font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em;
   color: var(--text-dim); padding-bottom: 16px; margin-bottom: 4px;
   border-bottom: 1px solid var(--line);
 }
 .ledger__ref {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 .ledger__ref--dim { color: var(--text-faint); }
 .ledger__row {
