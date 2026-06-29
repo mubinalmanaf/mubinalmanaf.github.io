@@ -14,9 +14,9 @@
   --text:      #ECEAE4;
   --text-dim:  #9AA0A8;
   --text-faint:#5E646D;
-  --accent:    #C9A96A;       /* champagne / brass */
-  --accent-2:  #E4CFA0;
-  --accent-soft: rgba(201, 169, 106, 0.12);
+  --accent:    #6CA9C9;       /* soft teal accent */
+  --accent-2:  #B6D1E5;
+  --accent-soft: rgba(108, 169, 201, 0.12);
   --data:      #7FA8C4;       /* cool secondary, used sparingly */
 
   /* type */
@@ -103,9 +103,18 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
 .section__title {
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(1.9rem, 4.4vw, 3.1rem);
-  line-height: 1.08;
+  font-size: clamp(1.6rem, 3.8vw, 2.4rem);
+  line-height: 1.12;
   letter-spacing: -0.015em;
+}
+#experience .section__title {
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+#projects .section__sub {
+  font-size: clamp(0.95rem, 1.2vw, 1rem);
+  max-width: 100%;
 }
 .section__sub { margin: 18px 0 0; color: var(--text-dim); max-width: 56ch; }
 
