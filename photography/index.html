@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Photography — Mubin Al-Manaf</title>
+  <meta name="description" content="Photography portfolio by Mubin Al-Manaf. A collection of personal photography work." />
+  <meta name="author" content="Mubin Al-Manaf" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://mubinn.com/photography/" />
+
+  <!-- Preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <script>document.documentElement.className += " js";</script>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#gallery">Skip to gallery</a>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a class="nav__mark" href="../" aria-label="Mubin Al-Manaf — home">
+        <img src="../Photo.jpeg" alt="Mubin Al-Manaf" class="nav__photo" />
+        <span class="nav__mono">MA</span>
+        <span class="nav__name">Mubin Al-Manaf</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="../#about">About</a>
+        <a href="../#projects">Projects</a>
+        <a href="../#skills">Skills</a>
+        <a href="../#contact" class="nav__cta">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="mobileMenu" aria-label="Mobile">
+      <a href="../#about">About</a>
+      <a href="../#projects">Projects</a>
+      <a href="../#skills">Skills</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="photography-hero" id="hero">
+      <div class="wrap">
+        <div class="photography-hero__content reveal">
+          <p class="eyebrow">Portfolio</p>
+          <h1 class="photography-hero__title">Photography</h1>
+          <p class="photography-hero__desc">A collection of moments captured through the lens.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS -->
+    <section class="section photography-collections" id="collections">
+      <div class="wrap">
+        <div class="collections-grid" id="collectionsGrid">
+          <!-- Collections will be populated here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- BACK TO HOME -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <a href="../" class="btn btn--secondary">← Back to portfolio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="footer__mono">© <span id="year">2026</span> Mubin Al-Manaf</span>
+      <span class="footer__mono footer__dim">Built &amp; hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
