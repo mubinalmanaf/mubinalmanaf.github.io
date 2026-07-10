@@ -58,7 +58,7 @@ HERO
 │ section     │ body paragraphs (2)                             │
 │ title       │ ── Commercial control                          │
 │             │ ── Project controls                            │
-│             │ ── Data engineering                            │
+│             │ ── Data analytics                              │
 └─────────────┴────────────────────────────────────────────────┘
 
 02 HIGHLIGHTS  (alt background)
