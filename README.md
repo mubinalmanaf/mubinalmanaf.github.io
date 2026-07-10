@@ -56,8 +56,8 @@ HERO
 ┌─────────────┬────────────────────────────────────────────────┐
 │ eyebrow     │ lead paragraph                                  │
 │ section     │ body paragraphs (2)                             │
-│ title       │ ── Commercial control                          │
-│             │ ── Project controls                            │
+│ title       │ ── Project management                          │
+│             │ ── Cost management                             │
 │             │ ── Data analytics                              │
 └─────────────┴────────────────────────────────────────────────┘
 
